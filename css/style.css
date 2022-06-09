@@ -70,6 +70,7 @@ header .content{
 /* main */
 main .plans{
     width: 60%;
+    margin: auto;
 }
 .flex{
     display: flex;
