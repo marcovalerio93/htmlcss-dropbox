@@ -67,3 +67,11 @@ header .content{
 .jumbol{
     width: 60%;
 }
+/* main */
+main .plans{
+    width: 60%;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
