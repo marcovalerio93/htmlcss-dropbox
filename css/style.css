@@ -71,18 +71,20 @@ header .content{
     margin: auto;
     align-items: flex-start;
 }
-.jumbor{
+.jumbo-left{
     margin-top: 60px;
     width: 40%;
 }
 .jumbor a{
     display: inline-block
 }
-.jumbol{
+.jumbo-right{
     width: 60%;
     height: auto;
     position: relative;
     bottom: -60px;
+    border: solid 2px red;
+    background-image:;
 }
 
 /* main */
@@ -93,4 +95,19 @@ main .plans{
 .flex{
     display: flex;
     justify-content: space-around;
+}
+
+
+
+/* inizio footer */
+footer{
+    background-color: #000;
+}
+.footer-container{
+    width: 70%;
+    margin: auto;
+}
+footer .footer-menu{
+    display: flex;
+    justify-content: space-between;
 }
