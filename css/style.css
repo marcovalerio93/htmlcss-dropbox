@@ -7,3 +7,63 @@
 html{
     font-family: 'Open Sans', sans-ser;
 }
+button{ 
+    background-color: #0061ff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+
+}
+/* inizio header */
+header{
+    height: 560px;
+    background-color:#b4d0e7 ;
+    border-bottom: solid 30px #fff;
+}
+header a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+header nav.bar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+
+header nav.right{
+    margin: 10px;
+}
+header nav.left{
+    margin: 10px;
+}
+.jumbotron {
+    height: 500px;
+    width: 70%;  
+    margin: auto;
+}
+.jumbotron h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center;
+}
+header .content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+.jumbor{
+    width: 40%;
+}
+.jumbor a{
+    display: inline-block
+}
+.jumbol{
+    width: 60%;
+}
