@@ -16,9 +16,9 @@ button{
 }
 /* inizio header */
 header{
-    height: 560px;
+    height: auto;
     background-color:#b4d0e7 ;
-    border-bottom: solid 30px #fff;
+    border-bottom: solid 100px #fff;
 }
 header a{
     text-decoration: none;
@@ -27,38 +27,52 @@ header a{
     margin-right: 10px ;
 }
 header nav.bar{
+    position: fixed;
+    top: 0;
+    left: 0;
     display: flex;
     height: 80px;
     width: 100%;
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
+    z-index: 999;
 }
 
-header nav.right{
+header ul.right{
+    display: flex;
     margin: 10px;
+    align-items: center;
+    
 }
-header nav.left{
+header ul.left{
+    display: flex;
     margin: 10px;
+    align-items: center;
+    
 }
+header li{
+    list-style: none;
+}
+
 .jumbotron {
-    height: 500px;
-    width: 70%;  
     margin: auto;
+    height: auto;
+    width: 70%;  
 }
 .jumbotron h1{
-    font-size: 40px;
-    margin-bottom: 20px;
+    padding-top: 120px;
+    font-size: 50px;
     color: #000;
-    text-align: center;
+    text-align: left;
 }
 header .content{
     display: flex;
-    justify-content: space-between;
-    width: 70%;
     margin: auto;
+    align-items: flex-start;
 }
 .jumbor{
+    margin-top: 60px;
     width: 40%;
 }
 .jumbor a{
@@ -66,6 +80,9 @@ header .content{
 }
 .jumbol{
     width: 60%;
+    height: auto;
+    position: relative;
+    bottom: -60px;
 }
 
 /* main */
