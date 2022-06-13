@@ -95,8 +95,41 @@ main .plans{
 }
 .flex{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between
 }
+.w-30{
+    width: 30%;
+}
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
+
+.brands{
+    display: flex;
+    margin: 200px 0px ;
+}
+.big-square{
+    width: calc(100% / 3);
+    height: calc(100vw /3);
+    display: flex;
+    flex-wrap: wrap;
+}
+.small-square{
+    width: 50%;
+    height: 50%;
+}
+.small-square img{ 
+    width: 100%;
+}
+
+#center-img{
+    width: 50%;
+    align-self: start;
+}
+
 
 
 
