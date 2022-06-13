@@ -73,18 +73,19 @@ header .content{
 }
 .jumbo-left{
     margin-top: 60px;
-    width: 40%;
+    width: 30%;
 }
 .jumbor a{
     display: inline-block
 }
 .jumbo-right{
-    width: 60%;
+    width: 70%;
     height: auto;
     position: relative;
     bottom: -60px;
-    border: solid 2px red;
-    background-image:;
+}
+.jumbo-right img{
+    width: 100%;
 }
 
 /* main */
@@ -106,8 +107,23 @@ footer{
 .footer-container{
     width: 70%;
     margin: auto;
+    padding: 50px;
 }
 footer .footer-menu{
     display: flex;
     justify-content: space-between;
+}
+footer ul{
+    color: #fff;
+    list-style: none;
+}
+footer h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+footer li a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 10px;
 }
